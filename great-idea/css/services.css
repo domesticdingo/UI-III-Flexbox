@@ -63,113 +63,97 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* My code starts here */
 
-.navigation {
+nav {
 	display: flex;
 	align-content: space-around;
-	color:grey;
+    color:grey;
+    margin-top: 3%;
 }
 
-.navigation a {
-	width: 14%;
+nav a {
+    width: 14%;
+    text-decoration: none;
+    color: grey;
 }
 
-.navigation img {
-	width: 14%;
+nav img {
+    width: 14%;
 }
 
-header{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 3%;
 }
 
-.textButton {
-	display: flex;
-	flex-direction: column;
+header img {
+    padding: 5%;
+    align-self: center;
 }
 
-h1{
-	font-size: 60px;
-	text-align: center;
-}
-
-.headerImage{
-	position: relative;
-}
-
-button{
-	border: 2px solid grey;
-	border-radius: 3px;
-	font-family: 'Titillium Web', sans-serif;
-	background-color: white;
-	flex: 1 1 auto;
-}
-
-.body{
-	border-top: 2px solid grey;
-	border-bottom: 2px solid grey;
-	padding-top: 3%;
-	padding-bottom: 3%;
-}
-
-.sec1 {
-	display: flex;
-	justify-content: center;
-	margin-left: 5%;
-	margin-right: 5%;
+.stuff {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .column1 {
-	display:inline-block;
-	width: 48%;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 45%;
+    justify-items: space-between;
 }
 
 .column2 {
-	display:inline-block;
-	width: 48%;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 45%;
+    justify-items: space-between;
 }
 
-.centerImage{	
-	display: flex;
-	justify-content: center;
-	padding-top: 5%;
-	padding-bottom: 5%;
+.stuffBox {
+    border: 2px solid black;
+    padding: 2%;
+    margin: 3%;
+    background-color: rgb(243,243,243);
 }
 
-.sec2 {
-	display: flex;
-	justify-content: center;
-	margin-left: 5%;
-	margin-right: 5%;
+button {
+    border: 2px solid grey;
+	border-radius: 3px;
+	font-family: 'Titillium Web', sans-serif;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    margin-top: 2%;
 }
 
-.column3 {
-	display:inline-block;
-	width: 32%;
+.bottomStuff {
+    display: flex;
+    padding: 5%;
+    justify-content: center;
 }
 
-.column4 {
-	display:inline-block;
-	width: 32%;
+.facts {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
-.column5 {
-	display:inline-block;
-	width: 32%;
+.factsBox {
+    margin: 3%;
 }
 
-.contact{
-	display: flex;
-	flex-direction: column;
-	padding-top: 5%;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
-.foot {
-	display: flex;
-	justify-content: center;
-	padding: 5%;
+footer {
+    display: flex;
+    justify-content: center;
 }
